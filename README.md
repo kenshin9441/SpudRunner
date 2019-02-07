@@ -1,8 +1,12 @@
-[PLAY THE GAME!](https://kenshin9441.github.io/SpudRunner/Potato.html)
+# [PLAY THE GAME!](https://kenshin9441.github.io/SpudRunner/Potato.html)
 ## Overview:
 Genre: Historical Fiction: One player game
 
 Platform: Twine
+
+Creators:
+* Ghin Chau
+* Jackie Sherman
 ## Theme:
 Between roughly 1845 and 1850, Ireland experienced a devastating famine that decreased their population by about a fifth. The Irish Potato Famine was caused by a potato blight, which is a mold that infected and spread across Ireland's potato population. The mold was accidentally picked up from the Americas and quickly made its way across the country. Potatoes were heavily depended upon for they were relatively easy to grow crops and calorie dense. Since around this time potatoes were a staple of the Irish diet and was a very typical food of the poor, this blight affected the Irish population disastrously. This led to a very high rate of death and emigration amongst the Irish. Many Irish tried to eat the infected potatoes and grew sick. If they did not eat the potatoes, many people became incredibly malnourished and sickly, leading them to additionally pick up fast spreading diseases like Typhus and Yellow Fever.
 ## Key Points:
