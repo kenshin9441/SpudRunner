@@ -16,6 +16,24 @@
 display: none;
 }
 
+tw-story{
+background-image:url("http://gdurl.com/DpNO");
+background-size:cover;
+}
+
+tw-passage{
+  color: black;
+  vertical-align: center;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+
 
 
 
@@ -37,56 +55,68 @@ display: none;
 
 
 
-</script><tw-passagedata pid="1" name="Introduction" tags="" position="727,22" size="100,100">Between roughly 1845 and 1850, Ireland experienced a devastating famine that decreased their population by about a fifth.
+
+
+
+
+
+
+
+
+
+
+</script><tw-passagedata pid="1" name="Introduction" tags="" position="758,35" size="100,100">&lt;h2 align=CENTER&gt;&lt;font color=&#39;gold&#39;&gt;SPUD RUNNER&lt;/font&gt;&lt;/h2&gt;
+&lt;p align=CENTER&gt;&lt;b&gt;Introduction&lt;/b&gt;&lt;/p&gt;
+Between roughly 1845 and 1850, Ireland experienced a devastating famine that decreased their population by about a fifth.
 The Irish Potato Famine was caused by a potato blight, which is a mold that infected and spread across Ireland&#39;s potato population. The mold was accidentally picked up from the Americas and quickly made its way across the country. Potatoes were heavily depended upon for they were relatively easy to grow crops and calorie dense.
-[[Continue...-&gt;Intro]]</tw-passagedata><tw-passagedata pid="2" name="Intro" tags="" position="518,58" size="100,100">...
+[[Continue...-&gt;Intro]]</tw-passagedata><tw-passagedata pid="2" name="Intro" tags="" position="498,36" size="100,100">...
 Since around this time potatoes were a staple in the Irish diet and was a very typical food of the poor, this blight affected the Irish population disastrously. This led to a very high rate of death and emigration amongst the Irish. Many Irish tried to eat the infected potatoes and grew sick. If they did not eat the potatoes, many people became incredibly malnourished and sickly, leading them to additionally pick up fast spreading diseases like Typhus and Yellow Fever.
-[[Start the game]]</tw-passagedata><tw-passagedata pid="3" name="Start the game" tags="" position="224,260" size="100,100">Your name is Patrick Kelly. You are living in Ballinasloe - a small town in West Ireland- on your potato farm with your wife Cassanadra and children.
-You have 4 children:
+
+&lt;h3 align=CENTER&gt;[[START THE GAME-&gt;Start the game]]&lt;/h3&gt;</tw-passagedata><tw-passagedata pid="3" name="Start the game" tags="" position="224,260" size="100,100">Your name is &lt;B&gt;Patrick Kelly&lt;/b&gt;. You are living in Ballinasloe - a small town in West Ireland- on your potato farm with your wife &lt;b&gt;Cassanadra&lt;/b&gt; and children.
+You have 5 children:
 Molly, Shannon, Connor, Sean and newborn Jack
 
-[[A new day begin-&gt;New Day]]</tw-passagedata><tw-passagedata pid="4" name="New Day" tags="" position="577,231" size="100,100">It&#39;s a cloudy day and you are just getting ready to start your day on working the feilds. You farm grain and potatoes, the grain you are forced to sell, and the potatoes you use to feed your family.
+[[A new day begins-&gt;New Day]]</tw-passagedata><tw-passagedata pid="4" name="New Day" tags="" position="677,244" size="100,100">It&#39;s a cloudy day and you are just getting ready to start your day on working the feilds. You farm grain and potatoes, the grain you are forced to sell, and the potatoes you use to feed your family.
 You can see in the distance your neighbor checking his fields.
 
 
 You reply:
-[[&quot;You decide to go over to your neighbors &quot;-&gt;ask your neighbor]]
+[[&quot;You decide to go over to your neighbors&quot;-&gt;ask your neighbor]]
 [[&quot;You turn to look in the kitchen.&quot; -&gt;Your wife]] 
-(set: $talkToNeighbor to true)</tw-passagedata><tw-passagedata pid="5" name="Your wife" tags="" position="620,490" size="100,100">In the kitchen you see your wife, Cassandra. She is preparing dinner, and is holding a sack of potatoes. Nearby there is a pile of spotty looking potatoes. You ask her about them.
+(set: $talkToNeighbor to false)</tw-passagedata><tw-passagedata pid="5" name="Your wife" tags="" position="620,494" size="100,100">In the kitchen you see your wife, Cassandra. She is preparing dinner, and is holding a sack of potatoes. Nearby there is a pile of spotty looking potatoes. You ask her about them.
 You ask what is wrong with them: she points to black patches on the leaves and responds:
-&quot;I don&#39;t quite know, these here just felt funny to me...&quot;
+&lt;i&gt;&quot;I don&#39;t quite know, these here just felt funny to me...&quot;&lt;/i&gt;
 (if: $talkToNeighbor is false)[
 You decide to go over and [[ask your neighbor]] about it, Old Niall might know a thing er two.
 ] (else:) [
-&quot;Oy! Niall just showed me one o&#39; these!&quot;
-Cassandra looks up at you, &quot;Can we eat em?&quot;
-&quot;I mean, lets not use a lot of em but we don&#39; really have a choice now do we?&quot;
-Cassandra nods, &quot;S&#39;pose not, Pat&quot; 
-[[&quot;Get ready for dinner&quot; -&gt;Stay]] 
+&lt;i&gt;&quot;Oy! Niall just showed me one o&#39; these!&quot;&lt;/i&gt;
+Cassandra looks up at you, &lt;i&gt;&quot;Can we eat em?&quot;&lt;/i&gt;
+&lt;i&gt;&quot;I mean, lets not use a lot of em but we don&#39; really have a choice now do we?&quot;&lt;/i&gt;
+Cassandra nods, &lt;i&gt;&quot;S&#39;pose not, Pat&quot; &lt;/i&gt;
+&lt;i&gt;[[&quot;Get ready for dinner&quot; -&gt;Stay]] &lt;/i&gt;
 ]
-(set: $talkedWife to true)
-</tw-passagedata><tw-passagedata pid="6" name="Stay" tags="" position="157,759" size="100,100">Few days later, the potato plants in your field become really bad.
-On the margins, there are small, dark spots or lesions on leaflets. The dark brown lesion is surrounded by a halo of light green tissue. Tubers have a brown discolouration on the surface and reddish-brown granular markings in the tuber flesh.
+(set: $talkedWife to true)</tw-passagedata><tw-passagedata pid="6" name="Stay" tags="" position="155,760" size="100,100">A few days later, the potato plants in your field become really bad.
+The leaves have small dark brown spots developing.  On the inside, the potatoes have turned brownish red. It’s not looking bright.
 
 Your baby Jack is too small to eat anything else so he can only eat mashed potatoes. He starts having some symptoms like fever, jaundice and nausea
 
-That night, the baby couldn&#39;t overcome the disease.
+&lt;font color=&quot;#8b0000&quot;&gt;&lt;i&gt;That night, the baby couldn&#39;t overcome the disease.&lt;/i&gt;&lt;/font&gt;
 
 Your wife is crying and says:
-&quot;We can&#39;t live like this!&quot;
-&quot;We will leave tomorrow&quot;, you responds.
+&lt;i&gt;&quot;We can&#39;t live like this!&quot;&lt;/i&gt;
+&lt;i&gt;&quot;We will leave tomorrow&quot;&lt;/i&gt;, you responds.
 (set: $jackDead to true)
-[[Next day-&gt;Leave]]</tw-passagedata><tw-passagedata pid="7" name="Leave" tags="" position="520,685" size="100,100">You tell your kids that the late blight is coming to us.
-&quot;We are leaving this place, there are nothing left for us.&quot;
+[[Next day-&gt;Leave]]</tw-passagedata><tw-passagedata pid="7" name="Leave" tags="" position="520,685" size="100,100">You have to tell your kids the situation.
+&lt;i&gt;&quot;We are leaving this place, there&#39;s nothing left for us.&quot;&lt;/i&gt;
 
-Your son - Connor - asks:
-&quot;Dad, why do we leave? Why don&#39;t we find something else to plant?&quot;
+Your son Connor asks:
+&lt;i&gt;&quot;Dad, why do we leave? Why don&#39;t we find something else to plant?&quot;&lt;/i&gt;
 You answer:
-&quot;My boy, the potato plant was hardy, nutritious, calorie-dense, and easy to grow in Irish soil. By now, nearly half of Ireland&#39;s population relies almost exclusively on potatoes for their diet, and the other half ate potatoes frequently. If we stay here, we won&#39;t have enough food to eat&quot;
+&lt;i&gt;&quot;My boy, If we stay here, we won&#39;t have enough food to eat. Us farmers need these potatoes for food, if they are going bad, we don’t have a choice.&quot;&lt;/i&gt;
 Connor asks:
-&quot;Where do we go?&quot;
-You are thinking:
-&quot;I know a guy in Galway, he works on a merchant ship that goes between Ireland and America. Maybe he could help our family get in that ship&quot;
+&lt;i&gt;&quot;Where do we go?&quot;&lt;/i&gt;
+You think out-loud:
+&lt;i&gt;&quot;I know a guy in Galway, he works on a merchant ship that goes between Ireland and America. Maybe he could help our family get in that ship&quot;&lt;/i&gt;
 
 There are [[two paths-&gt;Two paths]] that you can go from Ballinasloe</tw-passagedata><tw-passagedata pid="8" name="Kilconnel" tags="" position="599,877" size="100,100">Your family arrives at Kilconnel. It is a deserted area.
 You look around to see if there is a place that you can stay for one night
@@ -100,33 +130,34 @@ You turn you head to
 []&lt;result|
 []&lt;result2|
 (click: ?west)[ (replace: ?west)[West:
-There is a house in the middle of the field. Maybe we can ask the owner of the house to let us stay for a night]
+There is a house in the middle of the field.]
 (replace: ?result)[[[Go to the house-&gt;House]]]]
 (click: ?east)[ (replace: ?east)[East:
-You remember your small house, but there is nothing left] ]
+You remember your small home that you just left and feel a pang of sadness.] ]
 (click: ?north)[ (replace: ?north)[North:
-There is a large potato field spanning across the area]
+There is a large potato field spanning across the area.]
 (replace: ?result2)[[[Take a look at the field-&gt;Field]]]]
 (click: ?south)[ (replace: ?south)[South:
-There is a large potato field spanning across the area] 
+There is a large potato field spanning across the area.] 
 (replace: ?result2)[[[Take a look at the field-&gt;Field]]]]
 (set: $field to false)
-(set: $kilconnel to true)</tw-passagedata><tw-passagedata pid="9" name="Aughrim" tags="" position="856,415" size="100,100">As you arrive at Aughrim, you see a the town church. 
-Your wife Cassandra suggests you stop there. &quot;We are //tired// Pat, I think we should go to the church, we need a place to stay here.&quot;
+(set: $kilconnel to true)</tw-passagedata><tw-passagedata pid="9" name="Aughrim" tags="" position="882,393" size="100,100">As you arrive at Aughrim, you see a the town church. 
+Your wife Cassandra suggests you stop there. &lt;i&gt;&quot;We are //tired// Pat, I think we should go to the church, we need a place to stay here.&quot;&lt;/i&gt;
 [[You walk into the church ]]
-(set: $athenry to true)</tw-passagedata><tw-passagedata pid="10" name="House" tags="" position="422,1047" size="100,100">You knock the door.
-A woman opens the door and asks:
-&quot;How can I help you guys?&quot;
-&quot;Hello! I&#39;m Patrick, here is my wife - Cassandra and our kids. We are from Billinasloe. Our family are heading to the West. It&#39;s kinda late today, I wonder if we can stay in your place for a night?&quot;
+(set: $athenry to true)</tw-passagedata><tw-passagedata pid="10" name="House" tags="" position="422,1047" size="100,100">As you walk up to the house you are reminiscent of you old home. 
 
-&quot;I&#39;m Emily&quot;, she look at you suspiciously, &quot;Well, it&#39;s late now. You guys can stay here tonight but we don&#39;t have enough food for the kids.&quot;
-You tell your wife and kids quickly go [[into the house-&gt;In the house]] before she change her mind.
-</tw-passagedata><tw-passagedata pid="11" name="Field" tags="" position="329,854" size="100,100">You see a man inspecting his potato plants.
-You come and say hi:
-&quot;Hello sir, I&#39;m Patrick. Are you living here?&quot;
-&quot;Yes? It&#39;s Dave. Where are you guys going?&quot; He answers
-&quot;We are going to the West to see our friend.&quot; You say, &quot;We are not having a good potato season&quot;
-&quot;I think it&#39;s not only you. I don&#39;t know what is happening to my potatoes&quot;. He complains and show you [[one of his potatoes-&gt;Infected Potato]]
+You knock the door.
+A woman opens the door and looks at the family suspiciously.
+&lt;i&gt;&quot;Hello there, My name is Patrick Kelly and this is me family. We were forced to leave our farm  because of a tragedy. D’ya think ya could spare a room tonight?&quot;&lt;/i&gt;
+
+&lt;i&gt;&quot;I&#39;m Maeve&quot;&lt;/i&gt;, she says slowly as she continues to look at you carefully. She looks at your kids and her expression changes, it’s softer. &lt;i&gt;&quot;Well, it&#39;s late now. I s’pose you can stay but only fer a night.&quot;&lt;/i&gt;
+You gesture for your family to go [[into the house-&gt;In the house]] as you thank Maeve for her kindness. </tw-passagedata><tw-passagedata pid="11" name="Field" tags="" position="329,854" size="100,100">You see a man inspecting his potato plants.
+You walk up to him and tip your hat.
+&lt;i&gt;“Hello there, my name is Patrick Kelly. Is this your farm?”&lt;/i&gt;
+&lt;i&gt;&quot;Aye, the names Finn. Finn Sullivan.&quot;&lt;/i&gt; He answers. 
+You glance down at the potato in his hand. It seems to be coated in a white fuzz, similar to the potatoes you’d seen before.
+&lt;i&gt;&quot;We are going West towards Galway.&quot;&lt;/i&gt; You nod at the potatoes, &lt;i&gt;&quot;This happened to our spuds as well.&quot;&lt;/i&gt;
+&lt;i&gt;&quot;Yeah, I don’t think it’s just you. I don&#39;t know what’s happening to em&quot;.&lt;/i&gt; He complains and shows you [[one of his potatoes-&gt;Infected Potato]]
 (set: $field to true)</tw-passagedata><tw-passagedata pid="12" name="Infected Potato" tags="" position="105,1014" size="100,100">&lt;/Style&gt;
 &lt;img
 src=&quot;http://gdurl.com/GHJx&quot;&gt;
@@ -134,12 +165,14 @@ src=&quot;http://gdurl.com/GHJx&quot;&gt;
 
 You have seen this before
 
-[[Tell him what happened to your potato-&gt;What happened]]</tw-passagedata><tw-passagedata pid="13" name="What happened" tags="" position="181,1251" size="100,100">&quot;In the newspaper I read today&quot;, you say, handing him the newspaper, &quot;We are being affected by the potato blight&quot;
-His eyes widen, looking at the newspaper: &quot;It&#39;s terrible, how can we stop the blight?&quot;
-[[You suggest...-&gt;Suggest]]</tw-passagedata><tw-passagedata pid="14" name="In the house" tags="" position="568,1214" size="100,100">(if: $field is false)[
-&quot;My husband will be back soon. He is inspecting his potato field outside&quot;, Emily says
+[[Tell him what happened to your potato-&gt;What happened]]</tw-passagedata><tw-passagedata pid="13" name="What happened" tags="" position="181,1252" size="100,100">“This happened to my family… They were all we had to eat but my youngest, Jack… his body couldn’t take it. He… he passed a few days ago.”
+His eyes widen, “Oh gosh, this ain’t good… no this ain’t good at all.”
+Finn continues, “I heard from a friend’s friend that you can burn em, it’ll stop the growth from spreading apparently. But how can I burn my whole farm? It’s my home! My family’s home!”
 
-We are having a bad potato season. She shows you the potatoes that her husband havested recently
+[[Comfort Finn]]
+[[Tell him to burn it]]</tw-passagedata><tw-passagedata pid="14" name="In the house" tags="" position="699,1332" size="100,100">(if: $field is false)[&lt;i&gt;&quot;My husband will be back soon. He’s inspecting his potato field outside&quot;&lt;/i&gt;, Maeve says
+
+&lt;i&gt;“We are having a bad potato season.”&lt;/i&gt; She shows you the potatoes that her husband harvested recently
 &lt;/Style&gt;
 &lt;img
 src=&quot;http://gdurl.com/HZ8V&quot;&gt;
@@ -147,16 +180,13 @@ src=&quot;http://gdurl.com/HZ8V&quot;&gt;
 
 By that time, her husband comes back. He keeps complaining about their potatoes during the dinner.
 
-That night, your family sleeps in Emily&#39;s house.]
-(else:)[
-He let us stay in his house tonight.
-Dave&#39;s wife is preparing dinner.
+That night, your family sleeps in Maeve’s house.](else:)[
+As you enter Finn’s home, you see his wife preparing dinner.
 
-&quot;We don&#39;t have a lot of food for you family, but you can stay here as long as you want&quot; The man sympathizes with you
+&lt;i&gt;&quot;We don&#39;t have a lot of food for you family, but you can stay if you need.&quot;&lt;/i&gt; Finn sympathizes with you.
+&lt;i&gt;“We really cannot thank you enough.”&lt;/i&gt; You say sincerely to Finn.]
 
-That night, your family sleeps in Dave&#39;s house.]
-
-[[The next day-&gt;Next Day]]</tw-passagedata><tw-passagedata pid="15" name="Suggest" tags="" position="352,1412" size="100,100">&quot;Blight symptoms can vary on different varieties and can also be
+[[The next day-&gt;Next Day]]</tw-passagedata><tw-passagedata pid="15" name="Suggest" tags="" position="460,1741" size="100,100">&quot;Blight symptoms can vary on different varieties and can also be
 confused with other diseases, such as Botrytis or Alternaria. Even wind
 damage can look like potato blight. To be safe, remember if it looks like
 blight, remove the affected leaf or stem and bin it, bury it or burn it!&quot;
@@ -164,15 +194,15 @@ blight, remove the affected leaf or stem and bin it, bury it or burn it!&quot;
 &quot;I think it&#39;s the best we can do right now&quot;, Dave agrees.
 
 It&#39;s getting darker. [[Ask him if your family can stay for a night-&gt;In the house]]
-</tw-passagedata><tw-passagedata pid="16" name="Next Day" tags="" position="690,1469" size="100,100">Next day, you say good bye to (if: $field is false)[Emily and her husband](else:)[Dave] and thank them for letting your family stay.
+</tw-passagedata><tw-passagedata pid="16" name="Next Day" tags="" position="720,1748" size="100,100">Next day, you say goodbye to (if: $field is false)[Maeve and her husband](else:)[Finn and his wife] and thank them for letting your family stay.
 
-Now you need to go to Athenry, where your wife&#39;s brother - Liam - is living
-[[Go to Athenry-&gt;Athenry]]</tw-passagedata><tw-passagedata pid="17" name="Athenry" tags="" position="983,1368" size="100,100">Athenry, meaning &quot;Town of the Ford of the King&quot; is a town in County Galway, Ireland, which is on the east of Galway city. Some of the attractions of the medieval town are its town wall, Athenry Castle, its priory and its 13th century Anglo-Norman street-plan. The town is also well known by virtue of the song &quot;The Fields of Athenry&quot;.
+Now you need to go to Athenry, where your wife&#39;s brother, Liam, lives. One step closer to Galway.
+[[Go to Athenry-&gt;Athenry]]</tw-passagedata><tw-passagedata pid="17" name="Athenry" tags="" position="983,1368" size="100,100">Athenry, meaning &quot;Town of the Ford of the King&quot; is a town in County Galway, Ireland. Some famous landmarks of the medieval town are it’s town wall, Athenry Castle, and it’s priory.
 
 [[Discover]]
-(set: $athenry to true)</tw-passagedata><tw-passagedata pid="18" name="Two paths" tags="" position="753,700" size="100,100">Kilconnell is a small rural village in County Galway, Ireland. Its rural population in 2011 was 670. The land is mainly used for dairy farming and the raising of cattle. It was once part of the kingdom of the Soghain of Connacht before being conquered by the UÃ­ Maine
+(set: $athenry to true)</tw-passagedata><tw-passagedata pid="18" name="Two paths" tags="" position="753,700" size="100,100">Kilconnell is a small rural village in County Galway, Ireland. The land is mainly used for dairy farming and the raising of cattle. 
 
-Aughrim is a small village in County Galway, Ireland. It is located between the towns of Loughrea and Ballinasloe
+Aughrim is a small village in County Galway, Ireland. It is located between the towns of Loughrea and Ballinasloe.
 
 [[Go to Kilconnel-&gt;Kilconnel]]
 [[Go to Aughrim-&gt;Aughrim]]
@@ -180,105 +210,102 @@ Aughrim is a small village in County Galway, Ireland. It is located between the 
 (set: $kilconnell to false)
 (set: $loughrea to false)
 (set: $athenry to false)
-(set: $robbed to false)</tw-passagedata><tw-passagedata pid="19" name="Discover" tags="" position="949,1599" size="100,100">The sky is cloudy, the wind blows stronger. The leaves begin to fall...
+(set: $robbed to false)</tw-passagedata><tw-passagedata pid="19" name="Discover" tags="" position="1019,1742" size="100,100">As you walk through Athenry, the sky is cloudy, and the wind blows stronger. 
 
-Your family walks into the town. The first thing you see is the poverty of people in Athenry is suffering. Most of the houses and stores in here are closed.
-You barely see anyone on the street.
-At the far end, you see an old lady sitting on the ground with a soulless face.
+Your family walks into the town. It feels very empty, almost no one is around. Most of the houses and shops in here are closed. Something feels wrong here.
+At the far end, you see an old lady sitting on a rickety chair outside with a soulless face.
 
 [[Talk to her-&gt;Old Lady]]
 [[Look around]]
-(set: $gold to false)</tw-passagedata><tw-passagedata pid="20" name="You walk into the church " tags="" position="1116,395" size="100,100">There are many people loitering around the church and in the plaza around it. A little girl runs up to your daughter shannon, and your kids begin to play in the plaza.
-As you explain to the father your situation, he says &quot;Yes, I&#39;ve heard about this ... disease... it is cursing many over our land.&quot;
-&quot;Can you tell us more about it?&quot; You ask him.
-The father continues &quot;There is a blight I&#39;ve heard spreading fast o&#39;er Ireland. If your family has been cursed by it we may be able to put you up for the night. My sister Joan is a widow, she &#39;as room I should think.&quot;
-[[&quot;Thank you father&quot; -&gt; Joan&#39;s cottage]]
-[[&quot;Aye, we appreciate that.&quot; -&gt; Joan&#39;s cottage]]
-</tw-passagedata><tw-passagedata pid="21" name=" Joan&#39;s cottage" tags="" position="1322,576" size="100,100">As you arrive to Joan&#39;s cottage, you are greeted by Joan at the front step.
-&quot;My brother send you did he? He always was the one for hospitality... Well come in now, I can help you get situated&quot;
-&quot;My name is Patrick Kelly, my wife and I are very thankful ma&#39;am&quot;
-&quot;Yes yes, and you are welcome Patrick Kelly, have you too been hit by the bad potatoes?&quot; Joan asked.
-&quot;Aye, we were, we are trying to get to New York before while we still can.&quot;
-&quot;Smart choice.&quot; Joan said pointedly.
+(set: $gold to false)</tw-passagedata><tw-passagedata pid="20" name="You walk into the church " tags="" position="1152,388" size="100,100">There are many people loitering around the church and in the plaza around it. A little girl runs up to your daughter Shannon, and your kids begin to play in the plaza.
+As you explain to the father your situation, he says &lt;i&gt;&quot;Yes, I&#39;ve heard about this ... disease... it is cursing many over our land.&quot;&lt;/i&gt;
+&lt;i&gt;&quot;Can you tell us more about it?&quot;&lt;/i&gt; You ask him.
+The father continues &lt;i&gt;&quot;There is a blight I&#39;ve heard spreading fast o&#39;er Ireland. If your family has been cursed by it we may be able to put you up for the night. My sister Joan is a widow, she &#39;as room I should think.&quot;&lt;/i&gt;
+&lt;i&gt;[[&quot;Thank you father&quot; -&gt; Joan&#39;s cottage]]&lt;/i&gt;
+&lt;i&gt;[[&quot;Aye, we appreciate that.&quot; -&gt; Joan&#39;s cottage]]&lt;/i&gt;</tw-passagedata><tw-passagedata pid="21" name=" Joan&#39;s cottage" tags="" position="1322,576" size="100,100">As you arrive to Joan&#39;s cottage, you are greeted by Joan at the front step.
+&lt;i&gt;&quot;My brother send you did he? He always was the one for hospitality... Well come in now, I can help you get situated.&quot;&lt;/i&gt;
+&lt;i&gt;&quot;My name is Patrick Kelly, my wife and I are very thankful ma&#39;am.&quot;&lt;/i&gt;
+&lt;i&gt;&quot;Yes yes, and you are welcome Patrick Kelly, have you too been struck with the bad potatoes?&quot;&lt;/i&gt; Joan asked.
+&lt;i&gt;&quot;Aye, we were. We are trying to get to New York before while we still can.&quot;&lt;/i&gt;
+&lt;i&gt;&quot;Smart choice.&quot;&lt;/i&gt; Joan said pointedly.
 That night Joan described to Patrick and Cassandra what she heard about the blight.
 (if: $jackDead is false)[She told them that the potatoes were unsafe to eat, and she&#39;s heard of many people getting awful pains from eating them.
 They all soon decided to [[go to bed]].]
 (else:)[She told them that the potatoes were unsafe to eat, and Cassandra started to weep at the thought of Jack. Cassandra then decided she was tired, so you [[go to bed]]. ]</tw-passagedata><tw-passagedata pid="22" name="go to bed" tags="" position="988,648" size="100,100">The next morning you wake up and you hear someone coughing.
 Shannon walks over to you. You notice that she looks very flushed and is sweating, but it&#39;s cold outside. 
-Cassandra worriedly asks, &quot;Shannon, what&#39;s wrong sweetie, are you alright?&quot;
+Cassandra worriedly asks, &lt;i&gt;&quot;Shannon, what&#39;s wrong sweetie, are you alright?&quot;&lt;/i&gt;
 
-Unfortunately, you realize that Shannon isn&#39;t well. Shannon&#39;s condition doesn&#39;t get any better and you have to keep her away from the rest of the family. After about 5 days, Shannon passed away while you were staying at Joan&#39;s. 
+Unfortunately, you realize that Shannon isn&#39;t well. Shannon&#39;s condition doesn&#39;t get any better and you have to keep her away from the rest of the family.
+&lt;font color=&quot;#8b0000&quot;&gt;&lt;i&gt;After about 5 days, Shannon passed away while you were staying at Joan&#39;s.&lt;/i&gt;&lt;/font&gt;
+
 Your family has to [[move on]]. New York is their only hope.</tw-passagedata><tw-passagedata pid="23" name="move on" tags="" position="863,912" size="100,100">You thank Joan and the priest profusely for their hospitality. 
-As you leave Joan says &quot;From here to get to Galway, you have two options:
-[[Loughrea]] has a big market. Tt can be a bit dodgy but, you need suppies and food... Or you can head o&#39;er to [[Kilconnel]], there ain&#39;t much there but its a decent way to pass through.&quot;</tw-passagedata><tw-passagedata pid="24" name="Loughrea" tags="" position="1571,802" size="100,100">You&#39;ve made it to the Loughrea market and with the money you have left you begin to barter for some grain and food. 
+As you leave Joan says &lt;i&gt;&quot;From here to get to Galway, you have two options:
+[[Loughrea]] has a big market. It can be a bit dodgy but, you need supplies and food... Or you can head over to [[Kilconnel]], there isn’t much there but it’s a decent way to pass through to Galway.&quot;&lt;/i&gt;</tw-passagedata><tw-passagedata pid="24" name="Loughrea" tags="" position="1571,802" size="100,100">You&#39;ve made it to the Loughrea market. With the money you have left you begin to barter for some grain and food. 
 As your family waits for you on the outskirts of the market, you feel a pang of sadness as you think of the life you are leaving so suddenly. 
 Deep in your thoughts, you fail to notice a group of young men watching you.
 Do you [[head deeper into the market]]?
 Or do you think this is [[enough supplies]]?
 (set: $Laughrea to true)</tw-passagedata><tw-passagedata pid="25" name="head deeper into the market" tags="" position="1266,931" size="100,100">As you delve through the busting Laughrea market, you pick up a few more items with the hopes of keeping your family&#39;s morale and health up.
-As you turn a corner, the market becomes less busy, and someone taps you on the shoulder. You turn around and right then and [[POW]].
+As you turn a corner, the market becomes less busy, and someone taps you on the shoulder. You turn around and right then and &lt;big&gt;[[POW]]!!!&lt;/big&gt;
 (set: $robbed to true)</tw-passagedata><tw-passagedata pid="26" name="POW" tags="" position="845,1146" size="100,100">As you open your eyes, you feel dizzy, and feel blood on your face. 
 A group of teenagers are running away with the supplies you&#39;ve just boughten, all you have left is the money that was left in your inside coat pocket, which wasn&#39;t much. 
 You scream out in frustration!
-But all you can do is return back to yout family and try to [[continue your track]] to New York. </tw-passagedata><tw-passagedata pid="27" name="enough supplies" tags="" position="1408,1293" size="100,100">You head back to your family, in hopes that the little amount of grain and food you&#39;ve picked up is enough. 
-It&#39;s time to continue on to:
-[[Athenry]], Cassandra&#39;s brother - Liam - living there.
-Or make the stretch to [[Galway]].</tw-passagedata><tw-passagedata pid="28" name="continue your track" tags="" position="1175,1138" size="100,100">Back with Cassandra you tell her what happened. Because you have such little money, you can&#39;t afford to pay for the train to Galway. 
-Cassandra&#39;s brother lives in [[Athenry]], so your family and you start off to Athenry, it&#39;s your only choice. </tw-passagedata><tw-passagedata pid="29" name="Old Lady" tags="" position="1312,1443" size="100,100">You come and ask curiously: &quot;What happened here?&quot;
-&quot;E&#39;rebody left, Typhus took its toll &#39;round here.&quot;, she said and doesn&#39;t bother who is asking.
-You turn back to your wife and say, &quot;We prolly needa get outta here soon...&quot;
+But all you can do is return back to yout family and try to [[continue your track]] to New York. </tw-passagedata><tw-passagedata pid="27" name="enough supplies" tags="" position="1483,1286" size="100,100">You head back to your family, in hopes that the little amount of grain and food you&#39;ve picked up is enough. 
+It&#39;s time to continue on. Which way do you go?
+[[Athenry]], where Cassandra&#39;s brother, Liam, lives.
+Or
+Make the stretch to [[Galway]]. </tw-passagedata><tw-passagedata pid="28" name="continue your track" tags="" position="1175,1138" size="100,100">Back with Cassandra you tell her what happened. Because you have such little money, you can&#39;t afford to pay for the train to Galway. 
+Cassandra&#39;s brother lives in [[Athenry]], so your family and you start off to Athenry, it&#39;s your only choice. </tw-passagedata><tw-passagedata pid="29" name="Old Lady" tags="" position="1333,1521" size="100,100">You come and ask curiously: &lt;i&gt;&quot;What happened here?&quot;&lt;/i&gt;
+&lt;i&gt;&quot;E&#39;rebody left, Typhus took its toll &#39;round here.&quot;&lt;/i&gt; she says matter-of-factly.
+You turn back to your wife and say, &lt;i&gt;“I think we needa get out of here soon...&quot;&lt;/i&gt;
 
-&quot;This mass exodus must be the result of the period of starvation and disease&quot;.
-&quot;Most of them were abandoned&quot;, the old lady points to the houses on the street.
+&lt;i&gt;&quot;Most of them were abandoned&quot;&lt;/i&gt;, the old lady points to the houses on the street.
+&lt;i&gt;“There ain’t nobody left here. No food, no people.”&lt;/i&gt;
 
-[Offer her something to eat]&lt;offer|, she must be starving for a long time.
-[[Walks away-&gt;Look around]] to see if you can find anything here
+[Offer her something to eat]&lt;offer|, she must be starving.
+[[Walks away-&gt;Look around]] to see if you can find anything here.
 (click: ?offer)[
 Are you sure?
 (if: $robbed is true)[You just got robbed and barely have enough food for your family]
-[[Offer her a uninfected potato-&gt;Offer]]]</tw-passagedata><tw-passagedata pid="30" name="Look around" tags="" position="1240,1703" size="100,100">Walking along the street to where Liam&#39;s living, you find out that he is not living here anymore.
-You notice the his house&#39;s door is half opened.
+[[Offer her a healthy potato-&gt;Offer]]]</tw-passagedata><tw-passagedata pid="30" name="Look around" tags="" position="1331,1843" size="100,100">Walking along the street to where Liam lived, but it seems that his house is empty.
+You notice the house&#39;s door is half opened.
 
 [[Take a look at the house-&gt;The house]]
-[[Keep going]]
-</tw-passagedata><tw-passagedata pid="31" name="The house" tags="" position="1635,1867" size="100,100">Next to the front door, there is a wood table and chairs. In the corner, a old wide bed was left tidy. The house is not too dusty, the owner must left here not too long ago.
-It&#39;s must be an abandoned house.
+[[Keep going]]</tw-passagedata><tw-passagedata pid="31" name="The house" tags="" position="1681,2072" size="100,100">Since the door is left ajar, you walk into the house. Next to the front door, there is a wood table and chairs. In the corner, an old wide bed was left tidy. The house is not too dusty, the owner must left here not too long ago.
+&lt;i&gt;“It must be abandoned.”&lt;/i&gt; you say to Cassandra.
 
-&quot;I think we can stay here for now&quot;, you talk to Molly.
-The kids helps her mother carrying the luggage into the house.
+&lt;i&gt;&quot;I think we can stay here for now&quot;&lt;/i&gt;, you continue.
+The kids help your wife and hang out 
 
-[[Take a nap]]</tw-passagedata><tw-passagedata pid="32" name="Keep going" tags="" position="1006,1893" size="100,100">There is nothing left but the poverty in this area.
+[[Rest-&gt;Take a nap]]</tw-passagedata><tw-passagedata pid="32" name="Keep going" tags="" position="1029,2076" size="100,100">You start to continue down the road, but it seems like there is no point. 
+This is practically nothing around.
 
-Go back to [[The house]] to see if you can find anything
-</tw-passagedata><tw-passagedata pid="33" name="ask your neighbor" tags="" position="286,461" size="100,100">As you walk over to your neighbors property, you start to smell something, rather dank. 
-&quot;Aye Niall, &#39;ow are ya today ?&quot;
-Niall responds, &quot;Aye Pat, I&#39;m unsure... have you seen these before? Do you reckon they&#39;re still alright?&quot;. Niall pulls out a potato, witha. splotchy white fuzz growing on its outside.
-Niall takes out a knife and cuts it open, &quot;Pat, I dunno about these... they&#39;re all I got though, I have to sell the grain so the potatoes are the only thing to feed me n the missus.&quot;
-
-(set: $talkToNeighbor to true)
-(set: $jackDead to false)
-(if: $talkedWife is false)[
-&quot;Niall, my wife Cassnadra just showed me sum o those looking potatoes. She said she had a funny feelin, but I dunno what it could be.&quot;
-Niall looked down at the potato, &quot;Ahh, well, I guess this is our only choice then.&quot; and pockets the potato. 
+Go back to [[The house]] to see if you can find anything.</tw-passagedata><tw-passagedata pid="33" name="ask your neighbor" tags="" position="286,462" size="100,100">As you walk over to your neighbors property, you start to smell something, rather dank. 
+&lt;i&gt;&quot;Aye Niall, &#39;ow are ya today ?&quot;&lt;/i&gt;
+Niall responds, &lt;i&gt;&quot;Aye Pat, I&#39;m unsure... have you seen these before? Do you reckon they&#39;re still alright?&quot;&lt;/i&gt;. Niall pulls out a potato, witha. splotchy white fuzz growing on its outside.
+Niall takes out a knife and cuts it open, &lt;i&gt;&quot;Pat, I dunno about these... they&#39;re all I got though, I have to sell the grain so the potatoes are the only thing to feed me n the missus.&quot;&lt;/i&gt;
+(set: $talkToNeighbor to true)(set: $jackDead to false)(if: $talkedWife is true)[
+&lt;i&gt;&quot;Niall, my wife Cassnadra just showed me sum o those looking potatoes. She said she had a funny feelin, but I dunno what it could be.&quot;&lt;/i&gt;
+Niall looked down at the potato, &lt;i&gt;&quot;Ahh, well, I guess this is our only choice then.&quot;&lt;/i&gt; and pockets the potato. 
 As you walk back to your house, you think about your situation. 
-[[&quot;Well, like Pat said, theres nuthin&#39; we can do &#39;bout it now...&quot; -&gt;Stay]]]
+&lt;i&gt;[[&quot;Well, like Pat said, theres nuthin&#39; we can do &#39;bout it now...&quot; -&gt;Stay]]&lt;/i&gt;]
 (else:)[
-&quot;Oy, I dunno Niall, they don&#39;t quite look right to eat... Do you reckon its alright? 
-&quot; Dont quite think I have much of an option, do I Pat?&quot;
+&lt;i&gt;&quot;Oy, I dunno Niall, they don&#39;t quite look right to eat... Do you reckon its alright?&quot;&lt;/i&gt;
+&lt;i&gt;&quot; Dont quite think I have much of an option, do I Pat?&quot;&lt;/i&gt;
 You look at Niall, &quot;Aye, that might just be. Well I&#39;ll see you &#39;round Niall, I got to get back its gettin dark now.&quot;
-Go back and talk to [[Your wife]] ]</tw-passagedata><tw-passagedata pid="34" name="Offer" tags="" position="1555,1575" size="100,100">She looks at your family for a second and raise her hand to take the potato that we stored before the blight came.
-Suddenly, She put one hand into her pocket, take out a gold bracelet and give it to us.
-&quot;We don&#39;t do that for gold&quot;, you say.
-&quot;Take it&quot;, she insists &quot;I can&#39;t go anywhere. I cannot eat gold. It&#39;s nothing when I die.&quot;
+Go back and talk to [[Your wife]] ]</tw-passagedata><tw-passagedata pid="34" name="Offer" tags="" position="1620,1616" size="100,100">She looks at your family for a second and raises her hand to take the potato.
 
-Understand her situation, you [[receive the gold bracelet from her and leave-&gt;Look around]].
-(set: $gold to true)</tw-passagedata><tw-passagedata pid="35" name="Take a nap" tags="" position="1822,1627" size="100,100">The hunger and exhaustion keep bothering you.
+Suddenly, She puts one hand into her pocket, takes out a &lt;b&gt;&lt;font color=&#39;gold&#39;&gt;gold bracelet&lt;/font&gt;&lt;/b&gt; and hands it to you.
+&lt;i&gt;&quot;No ma’am, we cannot accept this&quot;&lt;/i&gt;, you say.
+&lt;i&gt;&quot;Take it&quot;&lt;/i&gt;, she insists &lt;i&gt;&quot;I can&#39;t go anywhere. I cannot eat gold. It&#39;ll do nothing to help me when I die.&quot;&lt;/i&gt;
+
+You look at her for a while, but you understand where she is coming from. You [[take the gold bracelet from her and leave-&gt;Look around]].
+(set: $gold to true)</tw-passagedata><tw-passagedata pid="35" name="Take a nap" tags="" position="1822,1627" size="100,100">You are hungry and exhausted. 
 You think about how you stuck at a small town, working on a potato field for your whole life. Now, you have to give up everything in your life trying to emigrate to a strange country. Hopefully, your children will have a better life.
 
-Can&#39;t stay here any longer, you and your family go to [[Galway]], where your friend is waiting.</tw-passagedata><tw-passagedata pid="36" name="Galway" tags="" position="1832,1223" size="100,100">Galway, a harbour city on Ireland’s west coast, sits where the River Corrib meets the Atlantic Ocean. The city’s hub is 18th-century Eyre Square, a popular meeting spot surrounded by shops and traditional pubs that often offer live Irish folk music. Nearby, stone-clad cafes, boutiques and art galleries line the winding lanes of the Latin Quarter, which retains portions of the medieval city walls.
+Can&#39;t stay here any longer, you and your family go to [[Galway]], where your friend is waiting.</tw-passagedata><tw-passagedata pid="36" name="Galway" tags="" position="1832,1223" size="100,100">Galway, a harbour city on Ireland’s west coast. It’s filled with shops and traditional pubs that often offer live Irish folk music. Your best hope here is to find your old friend who worked in this harbor. 
 
-[[Heading to the harbour-&gt;Harbour]]</tw-passagedata><tw-passagedata pid="37" name="Harbour" tags="" position="1859,946" size="100,100">You arrive at the harbour of Galway. It&#39;s the greatest harbour you have seen in your life.
-The port of Galway is situated at the centre of Galway City. It&#39;s crowded and noisy. You barely hear anything from people next to you.
+[[Heading to the harbour-&gt;Harbour]]</tw-passagedata><tw-passagedata pid="37" name="Harbour" tags="" position="1931,1060" size="100,100">You arrive at the harbour of Galway. It&#39;s crowded and noisy. You barely hear anything from people next to you.
 
 You turn your head to
 [the west]&lt;west|
@@ -288,54 +315,89 @@ You turn your head to
 
 []&lt;result|
 (click: ?west)[ (replace: ?west)[West:
-You see a dozen of ship are waiting to sail to the sea]]
+You see dozens of ships are waiting to set sail]]
 (click: ?east)[ (replace: ?east)[East:
-In front of you, there is a sailor commanding everyone else loadding good onto his ship]
+In front of you, there is a sailor commanding everyone else loading goods onto his ship]
 (replace: ?result)[[[Ask the sailor about your friend-&gt;The sailor]]]]
 (click: ?north)[ (replace: ?north)[North:
 Hundreds of people are getting onto the ships]]
 (click: ?south)[ (replace: ?south)[South:
-Crowds of people evacuating to a new land]]</tw-passagedata><tw-passagedata pid="38" name="The sailor" tags="" position="1816,671" size="100,100">Telling your Cassandra and your children stay and wait for you, you approach the sailor
+Crowds of people evacuating to a new land.]]</tw-passagedata><tw-passagedata pid="38" name="The sailor" tags="" position="1829,871" size="100,100">Telling your Cassandra and your children stay and wait for you, you approach the sailor
 
-&quot;Do you know James?&quot;, you ask.
-&quot;Who?&quot; He ask, his eyes keep monitoring every activities that happens from on his ship.
-&quot;James! James Barry!&quot; You shout loudly, make sure your words get into his ears.
-Stop for a moment, he points to the top deck, &quot;He is up there!&quot;
+&lt;big&gt;&lt;i&gt;&quot;Do you know a James Walsh?&quot;&lt;/i&gt;&lt;/big&gt;, you ask loudly over the noise.
+&lt;big&gt;&lt;i&gt;&quot;Who?&quot;&lt;/i&gt;&lt;/big&gt; He asks, his keeping his eyes on all of the activity around his ship.
+&lt;big&gt;&lt;i&gt;&quot;James! James Walsh!&quot;&lt;/i&gt;&lt;/big&gt; You shout loudly, make sure your words are heard.
+The sailor stops for a moment and he points to the top deck, &lt;big&gt;&lt;i&gt;&quot;Up there!&quot;&lt;/i&gt;&lt;/big&gt;
 
-Not even a second, you rush foward to [[the ship-&gt;The ship]] to find you friend.</tw-passagedata><tw-passagedata pid="39" name="The ship" tags="" position="1624,546" size="100,100">On the top deck, you see your old friend - James. He is loading goods on the ship and get everything ready to go.
+You rush forward to [[the ship-&gt;The ship]] to find you friend.</tw-passagedata><tw-passagedata pid="39" name="The ship" tags="" position="1629,589" size="100,100">On the top deck, you spot your old friend, James. He’s loading goods onto the ship.
 
-You call, &quot;James!&quot;
-James looks back, he is trying to see who is calling. Then, he realizes his old friend that he has spent his childhood together.
+You call, &lt;big&gt;&lt;i&gt;&quot;James!&quot;&lt;/i&gt;&lt;/big&gt;
+James looks back, in confusion, trying to see who is calling. Then, his eyes find you and his face lights up. 
 
-[[Talk to him]]</tw-passagedata><tw-passagedata pid="40" name="Talk to him" tags="" position="1909,289" size="100,100">&quot;My old man, how is it going?&quot;, he asks.
-&quot;Well, we don&#39;t really have a good season this year&quot;, you look down the crowds evacuating, &quot;as you can see.&quot;
-&quot;It&#39;s kinda busy these days, everyone trying to run away from the famine.&quot;, he says.
-&quot;That&#39;s why we are here&quot;, you ask, &quot;I know that you are working on this ship. Can you let us stay in your ship to the America?&quot;
-He thinks for a second and says, &quot;I understand, but I don&#39;t have the permission to let you guys in. I can try to ask my captain&quot;.
+[[Talk to him]]</tw-passagedata><tw-passagedata pid="40" name="Talk to him" tags="" position="2294,852" size="100,100">&lt;i&gt;&quot;My old mate, how is it going Patrick? What in the world are yeh doing here?&quot;&lt;/i&gt; he asks as he goes in for a hug. 
+You and James were good family friends when you were younger. 
+&lt;i&gt;&quot;Well, we aren’t really having a good season this year&quot;&lt;/i&gt;, you look down the crowds evacuating, &lt;i&gt;&quot;as you can see.&quot;&lt;/i&gt;
+&lt;i&gt;&quot;It&#39;s busy these days, with everyone trying to run away from the famine.&quot;&lt;/i&gt;, he says.
+&lt;i&gt;&quot;That&#39;s why we are here&quot;&lt;/i&gt;, you ask, &lt;i&gt;&quot;I know you are working on this ship, and I hate to ask ya James, but can you let us on the ship to America?&quot;&lt;/i&gt;
+He thinks for a second and says, &lt;i&gt;&quot;I understand, but I’m in a really tight spot here. I really can only do so much. I can try to ask my boss&quot;.&lt;/i&gt;
 
-[[&quot;Yes, please help us&quot;-&gt;Ask the captain]] You say</tw-passagedata><tw-passagedata pid="41" name="Ask the captain" tags="" position="1594,147" size="100,100">He goes and asks the captain
-...
-Few minutes later, he comes back, &quot;I tried to talk to him. Because there are hundreds of people like you guys trying to get away from the famine. He could let you guys in his ship, but he wants something back.&quot;
+&lt;i&gt;[[&quot;We’d be grateful for that.&quot;-&gt;Ask the boss]]&lt;/i&gt; You say</tw-passagedata><tw-passagedata pid="41" name="Give" tags="" position="1659,382" size="100,100">Finally, the captain agrees and let you and your family into the ship.
+You are bittersweet- you have a new unknown life ahead of you in New York and can only hope to be able to supply for your family when there.
+You look to the port one last time and say goodbye to your home. You turn around and guide your family to the new world that awaits. 
 
-(if: $robbed)[[[Give him the rest of your money-&gt;Give]]]
-(if: $gold is true)[[[Give him gold-&gt;Give]]]</tw-passagedata><tw-passagedata pid="42" name="Give" tags="" position="1430,92" size="100,100">Finally, the captain agrees and let you and your family into the ship.
+&lt;p align=CENTER&gt;&lt;b&gt;[[End]]&lt;/b&gt;&lt;/p&gt;</tw-passagedata><tw-passagedata pid="42" name="End" tags="" position="1449,137" size="100,100">&quot;Between 1845 and 1855 more than 1.5 million adults and children left Ireland to seek refuge in America. Most were desperately poor, and many were suffering from starvation and disease. They left because disease had devastated Ireland’s potato crops, leaving millions without food. The Potato Famine killed more than 1 million people in five years and generated great bitterness and anger at the British for providing too little help to their Irish subjects. The immigrants who reached America settled in Boston, New York, and other cities where they lived in difficult conditions. But most managed to survive, and their descendants have become a vibrant part of American culture.&quot; &lt;small&gt; &lt;i&gt;CONSTITUTIONAL RIGHTS FOUNDATION, Bill of Rights in Action, WINTER 2010 (Volume 26, No. 2)&lt;/i&gt;&lt;/small&gt;
 
-That day, your family left Ireland and heading to New York.
-
-[[End]]</tw-passagedata><tw-passagedata pid="43" name="End" tags="" position="1205,118" size="100,100">Between 1845 and 1855 more than 1.5 million adults and children left Ireland to seek refuge in America. Most were desperately poor, and many were suffering from starvation and disease. They left because disease had devastated Ireland’s potato crops, leaving millions without food. The Potato Famine killed more than 1 million people in five years and generated great bitterness and anger at the British for providing too little help to their Irish subjects. The immigrants who reached America settled in Boston, New York, and other cities where they lived in difficult conditions. But most managed to survive, and their descendants have become a vibrant part of American culture.
-
-[[Credits]]</tw-passagedata><tw-passagedata pid="44" name="Credits" tags="" position="960,134" size="100,100">Designer
+&lt;p align=CENTER&gt;&lt;b&gt;[[Credits]]&lt;/b&gt;&lt;/p&gt;</tw-passagedata><tw-passagedata pid="43" name="Credits" tags="" position="1006,67" size="100,100">&lt;h3 align=CENTER&gt;&lt;b&gt;Credits&lt;/b&gt;&lt;/h3&gt;
+&lt;p align=CENTER&gt;&lt;b&gt;Creators&lt;/b&gt;
 Ghin Chau
-Jackie Sherman
-
-Sources
-https://www.flickr.com/photos/usdagov/5050443007
+Jackie Sherman&lt;/p&gt;
+&lt;p align=CENTER&gt;&lt;b&gt;Resources&lt;/b&gt;
+&lt;small&gt;https://www.flickr.com/photos/usdagov/5050443007&lt;/small&gt;
 plant.jpg
-https://www.flickr.com/photos/cropshot/24516561213/
-End:
-http://www.crf-usa.org/bill-of-rights-in-action/bria-26-2-the-potato-famine-and-irish-immigration-to-america.html
+&lt;small&gt;https://www.flickr.com/photos/cropshot/24516561213/&lt;/small&gt;
+background.jpg
+&lt;small&gt;https://www.flickr.com/photos/lenabem-anna/6324738432&lt;/small&gt;
+Ending
+&lt;small&gt;http://www.crf-usa.org/bill-of-rights-in-action/bria-26-2-the-potato-famine-and-irish-immigration-to-america.html&lt;/small&gt;
 
-[[Play again-&gt;Introduction]]</tw-passagedata></tw-storydata>
+[[Play again-&gt;Introduction]]</tw-passagedata><tw-passagedata pid="44" name="Comfort Finn" tags="" position="369,1320" size="100,100">&lt;i&gt;“Finn, It’s a lot to take in. I think you should just be with your family right now.You don’t have to decide now.”&lt;/i&gt;
+Finn looks at you and half smiles. &lt;i&gt;“Aye, thank yeh for saying that.”&lt;/i&gt;
+After a moment he continues, &lt;i&gt;“Now wait a moment, where are ye all staying tonight? You’ll be needing a place to sleep I suppose?”&lt;/i&gt;
+You respond &lt;i&gt;“Yes, we do actually.”&lt;/i&gt;
+Finn insists &lt;i&gt;“Stay at my home! It ain’t much but it’ll suffice.”&lt;/i&gt;
+You thank Finn and follow him towards [[ his house -&gt;In the house]]</tw-passagedata><tw-passagedata pid="45" name="Tell him to burn it" tags="" position="171,1645" size="100,100">&lt;i&gt;“Finn, I dunno, I wouldn’t want it to spread any further. It might just be your only option.”&lt;/i&gt;
+Finn looks at you with pain in his eyes. &lt;i&gt;“Patrick, this is my home, how can I do that?”&lt;/i&gt;
+You hesitate, &lt;i&gt;“Well, you don’t have to do it now, but I’d keep it in mind if I were you. Soon this thing’ll be spreading all the way to Dublin.”&lt;/i&gt;
+Finn looks worried, but then nods in agreement. &lt;i&gt;“You might just be right Patrick...”&lt;/i&gt;
+It&#39;s getting darker. [[Ask him if your family can stay for a night-&gt;In the house]]</tw-passagedata><tw-passagedata pid="46" name="Ask the boss" tags="" position="2090,527" size="100,100">He goes and talks with someone on a higher deck for a bit.
+...
+Few minutes later, he comes back, &lt;i&gt;&quot;I tried to talk to him. Because there are hundreds of people like you trying to get away from the famine, he could let you guys in his ship…. But he wants something back.&quot;&lt;/i&gt;
+
+(if: $robbed is false)[[[Give him the rest of your money-&gt;Give]]](else-if: $gold is true)[[[Give him gold-&gt;Give]]](else:)[You don&#39;t have anything to offer to the captain.
+&lt;i&gt;“James we don’t have anything.”&lt;/i&gt;
+&lt;i&gt;[[“What can we do?”-&gt; Stay in ireland]]]&lt;/i&gt;</tw-passagedata><tw-passagedata pid="47" name=" Stay in ireland" tags="" position="2565,470" size="100,100">You can’t help but feel a wave of emotion as you realize that you may not make it to America.
+Your wife weeps as you turn to her and say &lt;i&gt;“That’s all we can do.”&lt;/i&gt;
+Your kids look confused. Their big eyes well up and realize that they don’t get to go on the boat to New York. 
+You turn to James.
+[[Shake his hand.]]
+Coldly, you [[turn away.]]</tw-passagedata><tw-passagedata pid="48" name="Shake his hand." tags="" position="2281,233" size="100,100">James looks down at his feet and shifts his weight. 
+As you shake is hand he glances around and whispers &lt;i&gt;“C’mon, there’s one last thing I can try.”&lt;/i&gt;
+[[Follow James]].</tw-passagedata><tw-passagedata pid="49" name="turn away." tags="" position="2288,41" size="100,100">He mumbles, &lt;i&gt;“Well, I uh suppose this is it uh? I’m sorry James I really am.”&lt;/i&gt;
+You look back and hold your wife’s hand and say &lt;i&gt;“Yeah, me too.”&lt;/i&gt; And with that your story ends. You must go back to Ballinasloe in attempt to survive. You can only hope that you and your family will be able to get through the Great Irish Potato famine. 
+
+&lt;p align=CENTER&gt;&lt;b&gt;[[End]]&lt;/b&gt;&lt;/p&gt;</tw-passagedata><tw-passagedata pid="50" name="Follow James" tags="" position="1925,245" size="100,100">Quickly James disappears and beckons you to follow him. 
+Your family chases after you darting through the bustling crowd.
+He brings you to the ramp where the workers are loading the ship with goods.
+He hands you a hat and says &lt;i&gt;“You can do this, you can load and unload in the shipyards.” &lt;/i&gt;
+&lt;i&gt;“Your family can travel, We can get them on the boat, secretly.”&lt;/i&gt;
+You smile and thank James. 
+He looks hesitantly and says &lt;i&gt;“But, a catch, I’m sorry Pat but you can’t go. You have to stay and work and eventually you can join em.”&lt;/i&gt;
+
+After a moment your decision is clear. 
+You look at your oldest son and say &lt;i&gt;“Hey, it’s your job now, to be the man of the house eh?”&lt;/i&gt;
+You quickly say your goodbyes and hope that your children and wife can find a way to survive. At least they will be away from the disease and famine here.
+
+&lt;p align=CENTER&gt;&lt;b&gt;[[End]]&lt;/b&gt;&lt;/p&gt;</tw-passagedata></tw-storydata>
 
 <script title="Twine engine code" data-main="harlowe">"use strict";function _defineProperty(e,t,n){return t in e?Object.defineProperty(e,t,{value:n,enumerable:!0,configurable:!0,writable:!0}):e[t]=n,e}function _toConsumableArray(e){if(Array.isArray(e)){for(var t=0,n=Array(e.length);t<e.length;t++)n[t]=e[t];return n}return Array.from(e)}var _slicedToArray=function(){function e(e,t){var n=[],r=!0,i=!1,o=void 0;try{for(var a,s=e[Symbol.iterator]();!(r=(a=s.next()).done)&&(n.push(a.value),!t||n.length!==t);r=!0);}catch(e){i=!0,o=e}finally{try{!r&&s.return&&s.return()}finally{if(i)throw o}}return n}return function(t,n){if(Array.isArray(t))return t;if(Symbol.iterator in Object(t))return e(t,n);throw new TypeError("Invalid attempt to destructure non-iterable instance")}}(),_typeof="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e};!function(){/**
  * @license almond 0.3.3 Copyright jQuery Foundation and other contributors.
