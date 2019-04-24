@@ -1,4 +1,4 @@
-# [PLAY THE GAME!](https://kenshin9441.github.io/SpudRunner/Potato.html)
+# [PLAY THE GAME!](https://kenshin9441.github.io/SpudRunner/SpudRunnerTwine/Potato.html)
 ## Overview:
 Genre: Historical Fiction: One player game
 
