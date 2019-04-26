@@ -7,7 +7,7 @@ switch(room){
 		draw_set_halign(fa_center);		
 		var c = c_yellow;
 		draw_text_transformed_color(room_width/2, 200, "SPUDRUNNER", 2.5, 2.5, 0, c, c, c, c, 1);
-		draw_text(room_width/2, 400, "Press LEFT/RIGHT keys to move");
+		draw_text(room_width/2, 400, "Press LEFT/RIGHT/UP/DOWN keys to move");
 		draw_text(room_width/2, 450, ">> PRESS ENTER TO START <<");
 		draw_set_halign(fa_left);
 		break;
